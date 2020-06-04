@@ -7,23 +7,22 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Goat App</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.PNG">
   </head>
   <body>
     <h1>Goat Sounds!</h1>
     <p>Because Goats are awesome!</p>
     <div class="buttons">
-        <a href="#" onmousedown="bleepOne.play(); toggle_visibility('goatOne');">Goat Sound 1</a>
-        <a href="#" onmousedown="bleepTwo.play(); toggle_visibility('goatTwo');">Goat Sound 2</a>
-        <a href="#" onmousedown="bleepThree.play(); toggle_visibility('goatThree');">Goat Sound 3</a>
-        <a href="#" onmousedown="bleepFour.play(); toggle_visibility('goatFour');">Goat Sound 4</a>
-        <a href="#" onmousedown="bleepFive.play(); toggle_visibility('goatFive');">Goat Sound 5</a>
-        <a href="#" onmousedown="bleepSix.play(); toggle_visibility('goatSix');">Goat Sound 6</a>
+        <a href="#" onmousedown="goat1.play(); toggle_visibility('goatOne');">Goat Sound 1</a>
+        <a href="#" onmousedown="goat2.play(); toggle_visibility('goatTwo');">Goat Sound 2</a>
+        <a href="#" onmousedown="goat3.play(); toggle_visibility('goatThree');">Goat Sound 3</a>
+        <a href="#" onmousedown="goat4.play(); toggle_visibility('goatFour');">Goat Sound 4</a>
+        <a href="#" onmousedown="goat5.play(); toggle_visibility('goatFive');">Goat Sound 5</a>
+        <a href="#" onmousedown="goat6.play(); toggle_visibility('goatSix');">Goat Sound 6</a>
     </div>
     <div class="container">
       <div>
-        <img id="goatOne"
-          src="https://media.giphy.com/media/cj30lAzw5pgD6/giphy-downsized.gif"
-        />
+        <img id="goatOne"src="https://media.giphy.com/media/cj30lAzw5pgD6/giphy-downsized.gif"/>
       </div>
       <div>
         <img id="goatTwo" src="https://media.giphy.com/media/GTkhJ3Aj3p064/giphy.gif"></img>
@@ -43,4 +42,6 @@
     </div>
   </body>
   <script src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+  </script>
 </html>
