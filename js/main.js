@@ -1,5 +1,5 @@
 function toggle_visibility(id) {
-  let x = document.getElementById(id);
+  var x = document.getElementById(id);
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -7,15 +7,15 @@ function toggle_visibility(id) {
   }
 }
 
-var bleepOne = new Audio();
-bleepOne.src = "sounds/maria.m4a";
-var bleepTwo = new Audio();
-bleepTwo.src = "sounds/hello.m4a";
-var bleepThree = new Audio();
-bleepThree.src = "sounds/testinggoat.m4a";
-var bleepFour = new Audio();
-bleepFour.src = "sounds/maria.m4a";
-var bleepFive = new Audio();
-bleepFive.src = "sounds/maria.m4a";
-var bleepSix = new Audio();
-bleepSix.src = "sounds/maria.m4a";
+var goat1 = new Audio();
+goat1.src = "sounds/maria.m4a";
+var goat2 = new Audio();
+goat2.src = "sounds/hello.m4a";
+var goat3 = new Audio();
+goat3.src = "sounds/testinggoat.m4a";
+var goat4 = new Audio();
+goat4.src = "sounds/maria.m4a";
+var goat5 = new Audio();
+goat5.src = "sounds/maria.m4a";
+var goat6 = new Audio();
+goat6.src = "sounds/maria.m4a";
